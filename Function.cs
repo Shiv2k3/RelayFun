@@ -3,11 +3,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.Functions.Worker;
 using Microsoft.Extensions.Logging;
 using System.Net;
-using System.ComponentModel;
+using Microsoft.Azure.Cosmos;
 
 namespace RelayFun
 {
-    public class Function
+    public partial class Function
     {
         private const string pk0 = "/pk0";
 
